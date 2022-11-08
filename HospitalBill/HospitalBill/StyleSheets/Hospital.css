@@ -1,0 +1,161 @@
+﻿body {
+    background-color: #bbbbbb;
+}
+
+.containerr {
+    width: 88%;
+    margin: 40px auto 25px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+    .subcontainer div {
+        margin: 20px 2px;
+    }
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+.bttns {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #b3ee43;
+    border-radius: 14px;
+}
+
+.bttn {
+    color: white;
+    background: #8be048;
+    border: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 12px 10px;
+}
+
+    .bttn:hover {
+        background-color: lightseagreen;
+    }
+
+.buttns {
+    background-color: white;
+    color: black;
+    border: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 9px 13px;
+    margin: 25px 0;
+}
+
+    .buttns:hover {
+        border: 1px blue solid;
+        color: white;
+        background-color: #44d800;
+    }
+
+.genderdrop {
+    width: 160px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+    .genderdrop:hover {
+        width: 160px;
+        border-radius: 5px;
+        border: 2px solid #0094ff;
+    }
+
+.date-time {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+    .date-time:hover {
+        border-radius: 5px;
+        border: 2px solid #0094ff;
+    }
+
+input[type="text"] {
+    border-radius: 5px;
+}
+
+    input[type="text"]:hover {
+        border-color: #0094ff;
+    }
+
+select:not(:-internal-list-box) {
+    border-radius: 6px;
+}
+
+.addbtn:hover {
+    color: white;
+    background-color: #44d800;
+}
+
+.addresslabel {
+    padding-bottom: 10px;
+}
+
+.addborder {
+    border: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+    .addborder:hover {
+        border: none;
+        border-radius: 5px;
+        border: 2px solid #0094ff;
+    }
+
+.clearbtn:hover {
+    color: white;
+    background-color: #44d800;
+}
+
+.exportbtn:hover {
+    color: white;
+    background-color: #44d800;
+}
+
+.validationcheck {
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+.addres {
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+}
+
+.Stylebttns {
+    color: white;
+    background-color: lightseagreen;
+    border-color: white;
+    padding: 2px 13px;
+    border-radius: 8px;
+}
+
+    .Stylebttns :hover {
+        color: white;
+        background-color: #14a49c;
+        border-color: white;
+        padding: 2px 13px;
+        border-radius: 8px;
+    }
